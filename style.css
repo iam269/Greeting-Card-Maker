@@ -1,0 +1,43 @@
+body {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  background-color: #f4f4f4;
+  margin: 20px;
+}
+.container {
+  max-width: 400px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  box-shadow: 1 4pxx 10px rgba(0, 0, 0, 0.2);
+}
+input,
+select,
+button {
+  width: 100%;
+  padding: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+button {
+  background-color: #ff4081;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.card {
+  display: none;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+.card h2 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+.card p {
+  font-size: 18px;
+}
